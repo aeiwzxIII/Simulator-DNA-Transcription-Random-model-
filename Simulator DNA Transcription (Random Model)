@@ -1,0 +1,14 @@
+import random
+
+Baseref = ["T","G","C","A"]
+
+for i in range(0,500): # for i in range(0, 500) = for loop 501 time
+	BaseRandom = random.choice(Baseref)
+	if BaseRandom == "A":
+		print("A-T")
+	elif BaseRandom == "T":
+		print("T-A")
+	elif BaseRandom == "G":
+		print("G-C")
+	elif BaseRandom == "C":
+		print("C-G")
